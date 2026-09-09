@@ -1,0 +1,58 @@
+:root {
+  --bg: #0f172a; --bg2: #111c33; --card: #1e293b; --line: #2c3b57;
+  --txt: #e2e8f0; --muted: #94a3b8; --green: #22c55e; --teal: #0ea5e9; --bw: #25d366;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Tahoma, 'Segoe UI', Arial, sans-serif; background: var(--bg); color: var(--txt); line-height: 1.7; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+a { color: var(--teal); }
+.top { position: sticky; top: 0; background: rgba(15,23,42,.92); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); z-index: 10; }
+.top .wrap { display: flex; align-items: center; gap: 18px; padding: 12px 20px; flex-wrap: wrap; }
+.logo { font-size: 20px; font-weight: bold; color: var(--green); }
+.logo b { color: var(--teal); }
+.nav { display: flex; gap: 16px; flex: 1; flex-wrap: wrap; }
+.nav a { color: var(--txt); text-decoration: none; font-size: 14px; }
+.nav a:hover { color: var(--green); }
+.lang { background: var(--card); color: var(--txt); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; font-size: 13px; }
+.hero { padding: 80px 0 60px; text-align: center; background: radial-gradient(900px 400px at 50% -10%, rgba(34,197,94,.18), transparent 60%); }
+.hero h1 { font-size: 34px; margin: 14px 0 10px; }
+.sub { color: var(--muted); max-width: 680px; margin: 0 auto 26px; font-size: 17px; }
+.badge { display: inline-block; background: rgba(34,197,94,.15); color: var(--green); border: 1px solid rgba(34,197,94,.4); padding: 4px 14px; border-radius: 30px; font-size: 13px; }
+.cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.btn { display: inline-block; padding: 12px 26px; border-radius: 10px; text-decoration: none; border: 1px solid var(--line); color: var(--txt); font-size: 15px; }
+.btn:hover { opacity: .88; }
+.btn.primary { background: var(--green); border-color: var(--green); color: #0b1220; font-weight: bold; }
+.btn.whatsapp { background: var(--bw); border-color: var(--bw); color: #0b1220; font-weight: bold; }
+.btn.telegram { background: var(--teal); border-color: var(--teal); color: #fff; font-weight: bold; }
+.note { margin-top: 18px; color: var(--muted); font-size: 13px; }
+.sec { padding: 60px 0; }
+.sec.alt { background: var(--bg2); }
+.sec h2 { text-align: center; margin: 0 0 6px; font-size: 26px; }
+.center { text-align: center; }
+.muted { color: var(--muted); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 30px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+.card h3 { margin: 6px 0 8px; font-size: 18px; color: var(--green); }
+.card p { color: var(--muted); font-size: 14px; margin: 0; }
+.tag { display: inline-block; background: rgba(14,165,233,.15); color: var(--teal); font-size: 12px; padding: 2px 10px; border-radius: 20px; }
+.why .card h3 { color: var(--txt); }
+.doctor { display: flex; gap: 24px; align-items: flex-start; }
+.avatar { font-size: 64px; background: var(--card); border: 1px solid var(--line); border-radius: 50%; width: 110px; height: 110px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.doctor h3 { color: var(--green); margin: 4px 0 8px; }
+.doctor p { color: var(--muted); }
+.contact h2 { margin-bottom: 8px; }
+.form { display: grid; gap: 12px; max-width: 520px; margin: 26px auto 0; }
+.form input, .form select, .form textarea {
+  width: 100%; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--line);
+  background: var(--card); color: var(--txt); font-size: 15px; font-family: inherit;
+}
+.form button { width: 100%; cursor: pointer; }
+.alt-cta { display: flex; gap: 14px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+.privacy { text-align: center; color: var(--muted); font-size: 12px; margin-top: 22px; }
+footer { border-top: 1px solid var(--line); padding: 24px 0; text-align: center; color: var(--muted); font-size: 13px; }
+@media (max-width: 640px) {
+  .hero h1 { font-size: 26px; }
+  .nav { display: none; }
+  .doctor { flex-direction: column; align-items: center; text-align: center; }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MedTour — Medical Tourism in Iran</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <span class="logo">MedTour <b>IR</b></span>
+    <nav class="nav">
+      <a href="#home" data-i18n="nav.home"></a>
+      <a href="#services" data-i18n="nav.services"></a>
+      <a href="#why" data-i18n="nav.why"></a>
+      <a href="#doctor" data-i18n="nav.doctor"></a>
+      <a href="#contact" data-i18n="nav.contacts"></a>
+    </nav>
+    <select id="langSwitcher" class="lang">
+      <option value="ar">العربية (خليجي)</option>
+      <option value="ckb">كوردی (سۆرانی)</option>
+      <option value="fa">فارسی</option>
+      <option value="en">English</option>
+      <option value="ru">Русский</option>
+      <option value="tr">Türkçe</option>
+      <option value="de">Deutsch</option>
+      <option value="hi">हिन्दी</option>
+      <option value="zh">中文</option>
+    </select>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="wrap">
+    <span class="badge" data-i18n="hero.badge"></span>
+    <h1 data-i18n="hero.title"></h1>
+    <p class="sub" data-i18n="hero.subtitle"></p>
+    <div class="cta">
+      <a class="btn primary" href="#contact" data-i18n="hero.cta1"></a>
+      <a class="btn" href="#services" data-i18n="hero.cta2"></a>
+    </div>
+    <p class="note" data-i18n="hero.note"></p>
+  </div>
+</section>
+
+<section id="services" class="sec">
+  <div class="wrap">
+    <h2 data-i18n="services.title"></h2>
+    <p class="center muted" data-i18n="services.subtitle"></p>
+    <div class="grid">
+      <article class="card">
+        <span class="tag" data-i18n="services.ivf.tag"></span>
+        <h3 data-i18n="services.ivf.name"></h3>
+        <p data-i18n="services.ivf.desc"></p>
+      </article>
+      <article class="card">
+        <span class="tag" data-i18n="services.hair.tag"></span>
+        <h3 data-i18n="services.hair.name"></h3>
+        <p data-i18n="services.hair.desc"></p>
+      </article>
+      <article class="card">
+        <span class="tag" data-i18n="services.eye.tag"></span>
+        <h3 data-i18n="services.eye.name"></h3>
+        <p data-i18n="services.eye.desc"></p>
+      </article>
+      <article class="card">
+        <span class="tag" data-i18n="services.skin.tag"></span>
+        <h3 data-i18n="services.skin.name"></h3>
+        <p data-i18n="services.skin.desc"></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="sec alt">
+  <div class="wrap">
+    <h2 data-i18n="why.title"></h2>
+    <div class="grid why" id="whyGrid"></div>
+  </div>
+</section>
+
+<section id="doctor" class="sec">
+  <div class="wrap doctor">
+    <div class="avatar">🩺</div>
+    <div>
+      <h2 data-i18n="doctor.title"></h2>
+      <h3 data-i18n="doctor.name"></h3>
+      <p data-i18n="doctor.desc"></p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="sec alt">
+  <div class="wrap contact">
+    <h2 data-i18n="contact.title"></h2>
+    <p class="center muted" data-i18n="contact.subtitle"></p>
+    <form id="leadForm" class="form">
+      <input type="text" id="fName" data-i18n-ph="contact.form_name" placeholder="" required>
+      <input type="tel" id="fPhone" data-i18n-ph="contact.form_phone" placeholder="" required>
+      <select id="fSpecialty">
+        <option value="ivf" data-i18n="services.ivf.name"></option>
+        <option value="hair" data-i18n="services.hair.name"></option>
+        <option value="eye" data-i18n="services.eye.name"></option>
+        <option value="skin" data-i18n="services.skin.name"></option>
+      </select>
+      <textarea id="fNote" data-i18n-ph="contact.form_note" placeholder="" rows="3"></textarea>
+      <button type="submit" class="btn primary" data-i18n="contact.form_cta"></button>
+    </form>
+    <div class="alt-cta">
+      <a class="btn whatsapp" id="waBtn" target="_blank" rel="noopener" data-i18n="contact.whatsapp"></a>
+      <a class="btn telegram" id="tgBtn" target="_blank" rel="noopener" data-i18n="contact.telegram"></a>
+    </div>
+    <p class="privacy" data-i18n="contact.privacy"></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p data-i18n="footer.rights"></p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "meta": { "lang": "de", "dir": "ltr", "label": "Deutsch" },
+  "nav": { "home": "Start", "services": "Behandlungen", "why": "Warum wir?", "doctor": "Arzt", "contacts": "Kontakt" },
+  "hero": {
+    "badge": "Medizintourismus im Iran",
+    "title": "Top-Behandlung für ein Drittel des Preises in Europa und am Golf",
+    "subtitle": "Fachbehandlung für Augen, Unfruchtbarkeit/IVF, Haartransplantation und Haut — mit Facharzt und Betreuung von Tür zu Tür.",
+    "cta1": "Kostenlose Beratung buchen",
+    "cta2": "Behandlungen ansehen",
+    "note": "Antwort innerhalb einer Stunde auf WhatsApp"
+  },
+  "services": {
+    "title": "Unsere Behandlungen",
+    "subtitle": "Vier vertrauenswürdige Disziplinen, ein Facharzt",
+    "ivf": { "tag": "Größte Nachfrage", "name": "Unfruchtbarkeit & IVF", "desc": "Hohe Erfolgsquote zu 70 % geringeren Kosten als am Golf, mit voller Diskretion." },
+    "hair": { "tag": "Schnellste Rückkehr", "name": "Haartransplantation", "desc": "Meist ohne Operation, natürliches dauerhaftes Ergebnis, Rückkehr in derselben Woche." },
+    "eye": { "tag": "Behandeln & zurück", "name": "Augen (LASIK/SMILE)", "desc": "Sehkorrektur mit schneller Erholung — ideal bei Zeitdruck." },
+    "skin": { "tag": "Rundum-Pflege", "name": "Haut & Ästhetik", "desc": "Fortschrittliche Hautbehandlungen unter ärztlicher Aufsicht." }
+  },
+  "why": {
+    "title": "Warum wir?",
+    "items": [
+      { "t": "Facharzt", "d": "Diagnose und Behandlung direkt durch einen Facharzt, kein Vermittler." },
+      { "t": "Wert", "d": "Europastandard für ein Drittel der Kosten und große Ersparnis gegenüber dem Golf." },
+      { "t": "Von Tür zu Tür", "d": "Abholung, Übersetzung, Unterkunft und Nachsorge — alles bei uns." },
+      { "t": "Volle Diskretion", "d": "Unterlagen und Termine bleiben absolut vertraulich." }
+    ]
+  },
+  "doctor": {
+    "title": "Ihr Arzt",
+    "name": "Dr. [Name des Arztes]",
+    "desc": "Facharzt für [Fachgebiet] mit über [10] Jahren Erfahrung; hat Tausende Patienten aus dem Golf, dem Irak und dem Iran behandelt."
+  },
+  "contact": {
+    "title": "Jetzt starten",
+    "subtitle": "Senden Sie Ihre Anfrage samt Statusfotos — Arztmeinung und Preis innerhalb weniger Stunden.",
+    "whatsapp": "Direkt per WhatsApp",
+    "telegram": "Telegram-Bot",
+    "form_name": "Ihr Name",
+    "form_phone": "Ihre Nummer (WhatsApp)",
+    "form_specialty": "Behandlung",
+    "form_note": "Ihr Fall / Frage",
+    "form_cta": "Anfrage senden",
+    "privacy": "Ihre Daten gehen nur an den behandelnden Arzt."
+  },
+  "footer": { "rights": "Alle Rechte vorbehalten. Medizintourismus — Iran." }
+}

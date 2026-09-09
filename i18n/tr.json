@@ -1,0 +1,47 @@
+{
+  "meta": { "lang": "tr", "dir": "ltr", "label": "Türkçe" },
+  "nav": { "home": "Ana Sayfa", "services": "Tedaviler", "why": "Neden biz?", "doctor": "Doktor", "contacts": "İletişim" },
+  "hero": {
+    "badge": "İran'da medikal turizm",
+    "title": "Avrupa ve Körfez fiyatının üçte biriyle üst düzey bakım",
+    "subtitle": "Göz, kısırlık/IVF, saç ekimi ve cilt için uzman tedavi — sertifikalı doktor ve kapıda teslim bakım ile.",
+    "cta1": "Ücretsiz danışma al",
+    "cta2": "Tedavileri gör",
+    "note": "WhatsApp'ta bir saat içinde yanıt"
+  },
+  "services": {
+    "title": "Tedavilerimiz",
+    "subtitle": "Dört güvenilir branş, bir uzman doktor",
+    "ivf": { "tag": "En çok talep", "name": "Kısırlık ve IVF", "desc": "Körfez maliyetinden %70 düşük fiyatla yüksek başarı oranı, tam mahremiyet." },
+    "hair": { "tag": "En hızlı dönüş", "name": "Saç ekimi", "desc": "Genellikle ameliyatsız, doğal kalıcı sonuç, aynı hafta geri dönüş." },
+    "eye": { "tag": "Tedavi ve dönüş", "name": "Göz (LASIK/SMILE)", "desc": "Hızlı iyileşmeli görme düzeltmesi — zamanı kısıtlı olanlar için." },
+    "skin": { "tag": "Tam bakım", "name": "Cilt ve estetik", "desc": "Doktor kontrolünde ileri cilt tedavileri." }
+  },
+  "why": {
+    "title": "Neden biz?",
+    "items": [
+      { "t": "Uzman doktor", "d": "Teşhis ve tedavi doğrudan sertifikalı doktorca, aracı değil." },
+      { "t": "Değer", "d": "Avrupa standardı üçte bir fiyata, Körfez'e göre büyük tasarruf." },
+      { "t": "Kapıdan kapıya", "d": "Havalimanı karşılama, tercüme, konaklama ve iyileşme — hepsi bizde." },
+      { "t": "Tam mahremiyet", "d": "Kayıtlar ve program tamamen gizli kalır." }
+    ]
+  },
+  "doctor": {
+    "title": "Doktorunuz",
+    "name": "Dr. [doktor adı]",
+    "desc": "[branş] uzmanı, [10]+ yıl deneyim, Körfez, Irak ve İran'dan binlerce hasta tedavi etti."
+  },
+  "contact": {
+    "title": "Şimdi başlayın",
+    "subtitle": "Durumunuzun fotoğraflarıyla talebinizi gönderin — doktor görüşü ve fiyat saatler içinde.",
+    "whatsapp": "Doğrudan WhatsApp",
+    "telegram": "Telegram botu",
+    "form_name": "Adınız",
+    "form_phone": "Numaranız (WhatsApp)",
+    "form_specialty": "Tedavi",
+    "form_note": "Durumunuz / sorunuz",
+    "form_cta": "Talebi gönder",
+    "privacy": "Bilgileriniz yalnızca tedavi doktoruyla paylaşılır."
+  },
+  "footer": { "rights": "Tüm hakları saklıdır. Medikal turizm — İran." }
+}
