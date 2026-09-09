@@ -197,6 +197,9 @@ a { color: var(--gold-soft); }
 }
 .form button { width: 100%; cursor: pointer; font-size: 16px; }
 .alt-cta { display: flex; gap: 16px; justify-content: center; margin-top: 26px; flex-wrap: wrap; }
+.wa-num { text-align: center; margin: 16px 0 0; font-size: 15px; letter-spacing: .5px; }
+.wa-num a { color: var(--green); text-decoration: none; font-weight: 500; transition: color .2s; }
+.wa-num a:hover { color: var(--gold-soft); }
 .privacy { text-align: center; color: var(--muted); font-size: 12px; margin-top: 26px; font-weight: 300; }
 
 /* Footer */
