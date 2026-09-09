@@ -1,6 +1,16 @@
 {
-  "meta": { "lang": "en", "dir": "ltr", "label": "English" },
-  "nav": { "home": "Home", "services": "Treatments", "why": "Why us?", "doctor": "Doctor", "contacts": "Contact" },
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "label": "English"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Treatments",
+    "why": "Why us?",
+    "doctor": "Doctor",
+    "contacts": "Contact"
+  },
   "hero": {
     "badge": "Medical tourism in Iran",
     "title": "Top-tier care at a third of Europe & Gulf prices",
@@ -36,10 +46,22 @@
   "why": {
     "title": "Why us?",
     "items": [
-      { "t": "Specialist doctor", "d": "Diagnosis and care directly by an accredited doctor, not a middleman agency." },
-      { "t": "Better value", "d": "The same standard as Europe at one third of the cost, with big savings vs the Gulf." },
-      { "t": "Door-to-door", "d": "Airport pickup, translation, accommodation and recovery — all handled by us." },
-      { "t": "Full privacy", "d": "Your records and schedule stay completely confidential." }
+      {
+        "t": "Specialist doctor",
+        "d": "Diagnosis and care directly by an accredited doctor, not a middleman agency."
+      },
+      {
+        "t": "Better value",
+        "d": "The same standard as Europe at one third of the cost, with big savings vs the Gulf."
+      },
+      {
+        "t": "Door-to-door",
+        "d": "Airport pickup, translation, accommodation and recovery — all handled by us."
+      },
+      {
+        "t": "Full privacy",
+        "d": "Your records and schedule stay completely confidential."
+      }
     ]
   },
   "doctor": {
@@ -59,5 +81,44 @@
     "form_cta": "Send inquiry",
     "privacy": "Your information is only shared with the treating doctor."
   },
-  "footer": { "rights": "All rights reserved. Medical tourism — Iran." }
+  "footer": {
+    "rights": "All rights reserved. Medical tourism — Iran."
+  },
+  "stats": {
+    "items": [
+      {
+        "n": "12,000+",
+        "t": "Cases treated"
+      },
+      {
+        "n": "70%",
+        "t": "Savings vs the Gulf"
+      },
+      {
+        "n": "9",
+        "t": "Languages served"
+      },
+      {
+        "n": "10+",
+        "t": "Years of experience"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Your journey with us",
+    "items": [
+      {
+        "t": "Send your case",
+        "d": "Send exam photos or case details on WhatsApp — with full privacy."
+      },
+      {
+        "t": "Doctor's opinion & cost",
+        "d": "The doctor replies with a clear plan and price within hours."
+      },
+      {
+        "t": "Treat & return",
+        "d": "Door-to-door: pickup, stay, translation and follow-up — all on us."
+      }
+    ]
+  }
 }

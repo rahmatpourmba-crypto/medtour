@@ -1,6 +1,16 @@
 {
-  "meta": { "lang": "de", "dir": "ltr", "label": "Deutsch" },
-  "nav": { "home": "Start", "services": "Behandlungen", "why": "Warum wir?", "doctor": "Arzt", "contacts": "Kontakt" },
+  "meta": {
+    "lang": "de",
+    "dir": "ltr",
+    "label": "Deutsch"
+  },
+  "nav": {
+    "home": "Start",
+    "services": "Behandlungen",
+    "why": "Warum wir?",
+    "doctor": "Arzt",
+    "contacts": "Kontakt"
+  },
   "hero": {
     "badge": "Medizintourismus im Iran",
     "title": "Top-Behandlung für ein Drittel des Preises in Europa und am Golf",
@@ -12,18 +22,46 @@
   "services": {
     "title": "Unsere Behandlungen",
     "subtitle": "Vier vertrauenswürdige Disziplinen, ein Facharzt",
-    "ivf": { "tag": "Größte Nachfrage", "name": "Unfruchtbarkeit & IVF", "desc": "Hohe Erfolgsquote zu 70 % geringeren Kosten als am Golf, mit voller Diskretion." },
-    "hair": { "tag": "Schnellste Rückkehr", "name": "Haartransplantation", "desc": "Meist ohne Operation, natürliches dauerhaftes Ergebnis, Rückkehr in derselben Woche." },
-    "eye": { "tag": "Behandeln & zurück", "name": "Augen (LASIK/SMILE)", "desc": "Sehkorrektur mit schneller Erholung — ideal bei Zeitdruck." },
-    "skin": { "tag": "Rundum-Pflege", "name": "Haut & Ästhetik", "desc": "Fortschrittliche Hautbehandlungen unter ärztlicher Aufsicht." }
+    "ivf": {
+      "tag": "Größte Nachfrage",
+      "name": "Unfruchtbarkeit & IVF",
+      "desc": "Hohe Erfolgsquote zu 70 % geringeren Kosten als am Golf, mit voller Diskretion."
+    },
+    "hair": {
+      "tag": "Schnellste Rückkehr",
+      "name": "Haartransplantation",
+      "desc": "Meist ohne Operation, natürliches dauerhaftes Ergebnis, Rückkehr in derselben Woche."
+    },
+    "eye": {
+      "tag": "Behandeln & zurück",
+      "name": "Augen (LASIK/SMILE)",
+      "desc": "Sehkorrektur mit schneller Erholung — ideal bei Zeitdruck."
+    },
+    "skin": {
+      "tag": "Rundum-Pflege",
+      "name": "Haut & Ästhetik",
+      "desc": "Fortschrittliche Hautbehandlungen unter ärztlicher Aufsicht."
+    }
   },
   "why": {
     "title": "Warum wir?",
     "items": [
-      { "t": "Facharzt", "d": "Diagnose und Behandlung direkt durch einen Facharzt, kein Vermittler." },
-      { "t": "Wert", "d": "Europastandard für ein Drittel der Kosten und große Ersparnis gegenüber dem Golf." },
-      { "t": "Von Tür zu Tür", "d": "Abholung, Übersetzung, Unterkunft und Nachsorge — alles bei uns." },
-      { "t": "Volle Diskretion", "d": "Unterlagen und Termine bleiben absolut vertraulich." }
+      {
+        "t": "Facharzt",
+        "d": "Diagnose und Behandlung direkt durch einen Facharzt, kein Vermittler."
+      },
+      {
+        "t": "Wert",
+        "d": "Europastandard für ein Drittel der Kosten und große Ersparnis gegenüber dem Golf."
+      },
+      {
+        "t": "Von Tür zu Tür",
+        "d": "Abholung, Übersetzung, Unterkunft und Nachsorge — alles bei uns."
+      },
+      {
+        "t": "Volle Diskretion",
+        "d": "Unterlagen und Termine bleiben absolut vertraulich."
+      }
     ]
   },
   "doctor": {
@@ -43,5 +81,44 @@
     "form_cta": "Anfrage senden",
     "privacy": "Ihre Daten gehen nur an den behandelnden Arzt."
   },
-  "footer": { "rights": "Alle Rechte vorbehalten. Medizintourismus — Iran." }
+  "footer": {
+    "rights": "Alle Rechte vorbehalten. Medizintourismus — Iran."
+  },
+  "stats": {
+    "items": [
+      {
+        "n": "12.000+",
+        "t": "Behandelte Fälle"
+      },
+      {
+        "n": "70%",
+        "t": "Ersparnis ggü. Golf"
+      },
+      {
+        "n": "9",
+        "t": "Sprachen"
+      },
+      {
+        "n": "10+",
+        "t": "Jahre Erfahrung"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Ihre Reise mit uns",
+    "items": [
+      {
+        "t": "Fall senden",
+        "d": "Senden Sie Untersuchungsfotos oder Falldetails per WhatsApp — mit voller Diskretion."
+      },
+      {
+        "t": "Arztmeinung & Kosten",
+        "d": "Der Arzt antwortet mit klarem Plan und Preis innerhalb weniger Stunden."
+      },
+      {
+        "t": "Behandeln & zurück",
+        "d": "Von Tür zu Tür: Abholung, Unterkunft, Übersetzung und Nachsorge — alles bei uns."
+      }
+    ]
+  }
 }

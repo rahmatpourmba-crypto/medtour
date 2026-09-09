@@ -1,6 +1,16 @@
 {
-  "meta": { "lang": "tr", "dir": "ltr", "label": "Türkçe" },
-  "nav": { "home": "Ana Sayfa", "services": "Tedaviler", "why": "Neden biz?", "doctor": "Doktor", "contacts": "İletişim" },
+  "meta": {
+    "lang": "tr",
+    "dir": "ltr",
+    "label": "Türkçe"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Tedaviler",
+    "why": "Neden biz?",
+    "doctor": "Doktor",
+    "contacts": "İletişim"
+  },
   "hero": {
     "badge": "İran'da medikal turizm",
     "title": "Avrupa ve Körfez fiyatının üçte biriyle üst düzey bakım",
@@ -12,18 +22,46 @@
   "services": {
     "title": "Tedavilerimiz",
     "subtitle": "Dört güvenilir branş, bir uzman doktor",
-    "ivf": { "tag": "En çok talep", "name": "Kısırlık ve IVF", "desc": "Körfez maliyetinden %70 düşük fiyatla yüksek başarı oranı, tam mahremiyet." },
-    "hair": { "tag": "En hızlı dönüş", "name": "Saç ekimi", "desc": "Genellikle ameliyatsız, doğal kalıcı sonuç, aynı hafta geri dönüş." },
-    "eye": { "tag": "Tedavi ve dönüş", "name": "Göz (LASIK/SMILE)", "desc": "Hızlı iyileşmeli görme düzeltmesi — zamanı kısıtlı olanlar için." },
-    "skin": { "tag": "Tam bakım", "name": "Cilt ve estetik", "desc": "Doktor kontrolünde ileri cilt tedavileri." }
+    "ivf": {
+      "tag": "En çok talep",
+      "name": "Kısırlık ve IVF",
+      "desc": "Körfez maliyetinden %70 düşük fiyatla yüksek başarı oranı, tam mahremiyet."
+    },
+    "hair": {
+      "tag": "En hızlı dönüş",
+      "name": "Saç ekimi",
+      "desc": "Genellikle ameliyatsız, doğal kalıcı sonuç, aynı hafta geri dönüş."
+    },
+    "eye": {
+      "tag": "Tedavi ve dönüş",
+      "name": "Göz (LASIK/SMILE)",
+      "desc": "Hızlı iyileşmeli görme düzeltmesi — zamanı kısıtlı olanlar için."
+    },
+    "skin": {
+      "tag": "Tam bakım",
+      "name": "Cilt ve estetik",
+      "desc": "Doktor kontrolünde ileri cilt tedavileri."
+    }
   },
   "why": {
     "title": "Neden biz?",
     "items": [
-      { "t": "Uzman doktor", "d": "Teşhis ve tedavi doğrudan sertifikalı doktorca, aracı değil." },
-      { "t": "Değer", "d": "Avrupa standardı üçte bir fiyata, Körfez'e göre büyük tasarruf." },
-      { "t": "Kapıdan kapıya", "d": "Havalimanı karşılama, tercüme, konaklama ve iyileşme — hepsi bizde." },
-      { "t": "Tam mahremiyet", "d": "Kayıtlar ve program tamamen gizli kalır." }
+      {
+        "t": "Uzman doktor",
+        "d": "Teşhis ve tedavi doğrudan sertifikalı doktorca, aracı değil."
+      },
+      {
+        "t": "Değer",
+        "d": "Avrupa standardı üçte bir fiyata, Körfez'e göre büyük tasarruf."
+      },
+      {
+        "t": "Kapıdan kapıya",
+        "d": "Havalimanı karşılama, tercüme, konaklama ve iyileşme — hepsi bizde."
+      },
+      {
+        "t": "Tam mahremiyet",
+        "d": "Kayıtlar ve program tamamen gizli kalır."
+      }
     ]
   },
   "doctor": {
@@ -43,5 +81,44 @@
     "form_cta": "Talebi gönder",
     "privacy": "Bilgileriniz yalnızca tedavi doktoruyla paylaşılır."
   },
-  "footer": { "rights": "Tüm hakları saklıdır. Medikal turizm — İran." }
+  "footer": {
+    "rights": "Tüm hakları saklıdır. Medikal turizm — İran."
+  },
+  "stats": {
+    "items": [
+      {
+        "n": "12.000+",
+        "t": "Tedavi edilen vaka"
+      },
+      {
+        "n": "%70",
+        "t": "Körfez'e göre tasarruf"
+      },
+      {
+        "n": "9",
+        "t": "Desteklenen dil"
+      },
+      {
+        "n": "10+",
+        "t": "Yıl deneyim"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Bizimle yolculuğunuz",
+    "items": [
+      {
+        "t": "Durumunuzu gönderin",
+        "d": "Muayene fotoğraflarını veya durumunuzu WhatsApp'tan gönderin — tam gizlilikle."
+      },
+      {
+        "t": "Doktor görüşü ve maliyet",
+        "d": "Doktor saatler içinde net bir plan ve fiyatla yanıt verir."
+      },
+      {
+        "t": "Tedavi ve dönüş",
+        "d": "Kapıdan kapıya: karşılama, konaklama, tercüme ve takip — hepsi bizde."
+      }
+    ]
+  }
 }

@@ -4,12 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MedTour — Medical Tourism in Iran</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,500&family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<div class="bg-ornament" aria-hidden="true"></div>
+
 <header class="top">
   <div class="wrap">
-    <span class="logo">MedTour <b>IR</b></span>
+    <span class="logo">Med<b>Tour</b><i class="dot">◆</i> IR</span>
     <nav class="nav">
       <a href="#home" data-i18n="nav.home"></a>
       <a href="#services" data-i18n="nav.services"></a>
@@ -33,39 +38,55 @@
 
 <section id="home" class="hero">
   <div class="wrap">
-    <span class="badge" data-i18n="hero.badge"></span>
-    <h1 data-i18n="hero.title"></h1>
-    <p class="sub" data-i18n="hero.subtitle"></p>
-    <div class="cta">
-      <a class="btn primary" href="#contact" data-i18n="hero.cta1"></a>
-      <a class="btn" href="#services" data-i18n="hero.cta2"></a>
+    <div class="eyebrow reveal">
+      <span class="line"></span><span data-i18n="hero.badge"></span><span class="line"></span>
     </div>
-    <p class="note" data-i18n="hero.note"></p>
+    <h1 class="reveal" data-i18n="hero.title"></h1>
+    <p class="sub reveal" data-i18n="hero.subtitle"></p>
+    <div class="cta reveal">
+      <a class="btn primary" href="#contact" data-i18n="hero.cta1"></a>
+      <a class="btn ghost" href="#services" data-i18n="hero.cta2"></a>
+    </div>
+    <p class="note reveal" data-i18n="hero.note"></p>
+  </div>
+</section>
+
+<div class="trustbar" aria-hidden="true">DUBAI&nbsp;·&nbsp;DOHA&nbsp;·&nbsp;RIYADH&nbsp;·&nbsp;BAGHDAD&nbsp;·&nbsp;ERBIL&nbsp;·&nbsp;BAKU&nbsp;·&nbsp;ISTANBUL&nbsp;·&nbsp;MOSCOW&nbsp;·&nbsp;SHANGHAI</div>
+
+<section class="sec stats" id="stats">
+  <div class="wrap">
+    <div class="grid stats-grid" id="statGrid"></div>
   </div>
 </section>
 
 <section id="services" class="sec">
   <div class="wrap">
-    <h2 data-i18n="services.title"></h2>
-    <p class="center muted" data-i18n="services.subtitle"></p>
-    <div class="grid">
-      <article class="card">
+    <div class="sec-head reveal">
+      <h2 data-i18n="services.title"></h2>
+      <p class="muted" data-i18n="services.subtitle"></p>
+    </div>
+    <div class="grid cards">
+      <article class="card reveal">
         <span class="tag" data-i18n="services.ivf.tag"></span>
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="8.2"></circle><path d="M12 8v8M8 12h8"></path><path d="M15.5 4.5l.8-2M20 8l2 .8M4.5 15.5l-2 .8"></path></svg>
         <h3 data-i18n="services.ivf.name"></h3>
         <p data-i18n="services.ivf.desc"></p>
       </article>
-      <article class="card">
+      <article class="card reveal">
         <span class="tag" data-i18n="services.hair.tag"></span>
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 3c4 2.5 5 6 3 10-1.6 3.2-5 4-5 4s-1-1-2-.5c-1 .4-1.5 1.5-1.5 1.5"></path><path d="M12 7c-2 1-3 2.5-2.5 4.5"></path></svg>
         <h3 data-i18n="services.hair.name"></h3>
         <p data-i18n="services.hair.desc"></p>
       </article>
-      <article class="card">
+      <article class="card reveal">
         <span class="tag" data-i18n="services.eye.tag"></span>
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2.5 12S6 6.5 12 6.5 21.5 12 21.5 12 18 17.5 12 17.5 2.5 12 2.5 12Z"></path><circle cx="12" cy="12" r="2.6"></circle></svg>
         <h3 data-i18n="services.eye.name"></h3>
         <p data-i18n="services.eye.desc"></p>
       </article>
-      <article class="card">
+      <article class="card reveal">
         <span class="tag" data-i18n="services.skin.tag"></span>
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 3S6 10 6 14.5a6 6 0 0 0 12 0C18 10 12 3 12 3Z"></path><path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5"></path></svg>
         <h3 data-i18n="services.skin.name"></h3>
         <p data-i18n="services.skin.desc"></p>
       </article>
@@ -75,27 +96,40 @@
 
 <section id="why" class="sec alt">
   <div class="wrap">
-    <h2 data-i18n="why.title"></h2>
+    <div class="sec-head reveal">
+      <h2 data-i18n="why.title"></h2>
+    </div>
     <div class="grid why" id="whyGrid"></div>
   </div>
 </section>
 
-<section id="doctor" class="sec">
+<section id="steps" class="sec">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 data-i18n="steps.title"></h2>
+    </div>
+    <div class="grid steps" id="stepsGrid"></div>
+  </div>
+</section>
+
+<section id="doctor" class="sec alt">
   <div class="wrap doctor">
-    <div class="avatar">🩺</div>
-    <div>
+    <div class="monogram reveal" aria-hidden="true">MD</div>
+    <div class="reveal">
       <h2 data-i18n="doctor.title"></h2>
-      <h3 data-i18n="doctor.name"></h3>
+      <h3 class="doc-name" data-i18n="doctor.name"></h3>
       <p data-i18n="doctor.desc"></p>
     </div>
   </div>
 </section>
 
-<section id="contact" class="sec alt">
+<section id="contact" class="sec">
   <div class="wrap contact">
-    <h2 data-i18n="contact.title"></h2>
-    <p class="center muted" data-i18n="contact.subtitle"></p>
-    <form id="leadForm" class="form">
+    <div class="sec-head reveal">
+      <h2 data-i18n="contact.title"></h2>
+      <p class="muted" data-i18n="contact.subtitle"></p>
+    </div>
+    <form id="leadForm" class="form reveal">
       <input type="text" id="fName" data-i18n-ph="contact.form_name" placeholder="" required>
       <input type="tel" id="fPhone" data-i18n-ph="contact.form_phone" placeholder="" required>
       <select id="fSpecialty">
@@ -107,16 +141,17 @@
       <textarea id="fNote" data-i18n-ph="contact.form_note" placeholder="" rows="3"></textarea>
       <button type="submit" class="btn primary" data-i18n="contact.form_cta"></button>
     </form>
-    <div class="alt-cta">
+    <div class="alt-cta reveal">
       <a class="btn whatsapp" id="waBtn" target="_blank" rel="noopener" data-i18n="contact.whatsapp"></a>
       <a class="btn telegram" id="tgBtn" target="_blank" rel="noopener" data-i18n="contact.telegram"></a>
     </div>
-    <p class="privacy" data-i18n="contact.privacy"></p>
+    <p class="privacy reveal" data-i18n="contact.privacy"></p>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
+    <span class="logo small">Med<b>Tour</b><i class="dot">◆</i> IR</span>
     <p data-i18n="footer.rights"></p>
   </div>
 </footer>
