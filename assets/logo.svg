@@ -4,20 +4,32 @@
       <stop offset="0%" stop-color="#c8102e"/>
       <stop offset="100%" stop-color="#9b1431"/>
     </linearGradient>
-    <linearGradient id="arc" x1="0" y1="20" x2="48" y2="28" gradientUnits="userSpaceOnUse">
+    <linearGradient id="arc" x1="6" y1="20" x2="46" y2="14" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#ffccd0"/>
     </linearGradient>
   </defs>
+
   <!-- outer circle -->
   <circle cx="24" cy="24" r="24" fill="url(#bg)"/>
   <!-- thin inner ring -->
   <circle cx="24" cy="24" r="22.5" stroke="#fff" stroke-width="0.6" stroke-opacity="0.18" fill="none"/>
-  <!-- medical cross -->
-  <rect x="20.5" y="12" width="7" height="24" rx="2" fill="#fff"/>
-  <rect x="12" y="20.5" width="24" height="7" rx="2" fill="#fff"/>
-  <!-- travel arc (a plane path sweeping across) -->
-  <path d="M 8 31 Q 24 14 40 19" stroke="url(#arc)" stroke-width="2" stroke-linecap="round" fill="none" stroke-dasharray="3 3"/>
-  <!-- small plane dot -->
-  <circle cx="40" cy="19" r="1.8" fill="#fff"/>
+
+  <!-- travel arc -->
+  <path d="M6 19 Q 24 8 42 15" stroke="url(#arc)" stroke-width="1.8" stroke-linecap="round" fill="none" stroke-dasharray="3 4"/>
+  <circle cx="42" cy="15" r="1.7" fill="#fff"/>
+
+  <!-- microscope (left) -->
+  <path d="M8 41h22" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M13 41V30" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M13 30c0-6 6-9 14-9" stroke="#fff" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  <path d="M27 21V12" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M26.2 11L27 6.5l1.4 4.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="29.2" cy="22.6" r="2.1" fill="#fff"/>
+  <path d="M16 33h17" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- smartphone (right-bottom) with ECG pulse on screen -->
+  <rect x="32" y="25.5" width="9" height="14.5" rx="2.2" stroke="#fff" stroke-width="2.2"/>
+  <path d="M33.6 29.2h4.8" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M34 34h1l0.9-1.8 1.3 3.1 1-1.5h2" stroke="#fff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>
