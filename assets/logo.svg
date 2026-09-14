@@ -28,8 +28,12 @@
   <circle cx="29.2" cy="22.6" r="2.1" fill="#fff"/>
   <path d="M16 33h17" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
 
-  <!-- smartphone (right-bottom) with ECG pulse on screen -->
-  <rect x="32" y="25.5" width="9" height="14.5" rx="2.2" stroke="#fff" stroke-width="2.2"/>
-  <path d="M33.6 29.2h4.8" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
-  <path d="M34 34h1l0.9-1.8 1.3 3.1 1-1.5h2" stroke="#fff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- stethoscope (right) -->
+  <circle cx="37.8" cy="11" r="1.6" fill="#fff"/>
+  <circle cx="42.2" cy="13.5" r="1.6" fill="#fff"/>
+  <path d="M38.6 12.4C38.6 17 39.4 19 40 21" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <path d="M41.6 15C41.6 18.5 40.6 19.5 40 21" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40 21C36.5 24 36 29.5 38.5 33" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="39" cy="36.8" r="3.4" stroke="#fff" stroke-width="2.2"/>
+  <circle cx="39" cy="36.8" r="1.2" fill="#ffccd0"/>
 </svg>
