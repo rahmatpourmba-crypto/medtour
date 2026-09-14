@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var WHATSAPP = "989141688217";
+  var WHATSAPP = "989398928323";
   var TELEGRAM = "https://t.me/rahmatpour63";
 
   var dicts = {};
