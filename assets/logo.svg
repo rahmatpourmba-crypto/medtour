@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#c8102e"/>
+      <stop offset="100%" stop-color="#9b1431"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="0" y1="20" x2="48" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffccd0"/>
+    </linearGradient>
+  </defs>
+  <!-- outer circle -->
+  <circle cx="24" cy="24" r="24" fill="url(#bg)"/>
+  <!-- thin inner ring -->
+  <circle cx="24" cy="24" r="22.5" stroke="#fff" stroke-width="0.6" stroke-opacity="0.18" fill="none"/>
+  <!-- medical cross -->
+  <rect x="20.5" y="12" width="7" height="24" rx="2" fill="#fff"/>
+  <rect x="12" y="20.5" width="24" height="7" rx="2" fill="#fff"/>
+  <!-- travel arc (a plane path sweeping across) -->
+  <path d="M 8 31 Q 24 14 40 19" stroke="url(#arc)" stroke-width="2" stroke-linecap="round" fill="none" stroke-dasharray="3 3"/>
+  <!-- small plane dot -->
+  <circle cx="40" cy="19" r="1.8" fill="#fff"/>
+</svg>
