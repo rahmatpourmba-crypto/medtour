@@ -9,7 +9,8 @@
     "services": "Behandlungen",
     "why": "Warum wir?",
     "doctor": "Arzt",
-    "contacts": "Kontakt"
+    "contacts": "Kontakt",
+    "hospital": "Krankenhäuser"
   },
   "hero": {
     "badge": "Medizintourismus im Iran",
@@ -120,5 +121,15 @@
         "d": "Von Tür zu Tür: Abholung, Unterkunft, Übersetzung und Nachsorge — alles bei uns."
       }
     ]
+  },
+  "hospital": {
+    "title": "Unsere Krankenhäuser",
+    "subtitle": "Aufnahmen aus Krankenhausumgebungen — keine Namen oder Gesichter",
+    "v1": "Notaufnahme & Monitore",
+    "v2": "Chirurgische Instrumente",
+    "v3": "IV-Leitungen & Krankenwagen",
+    "v4": "Überwachung der Vitalzeichen",
+    "v5": "Herzschlag-Monitor",
+    "privacy": "Kein Patienten- oder Krankenhausname ist sichtbar. Bilder dienen nur Bildungs- und Illustrationszwecken."
   }
 }

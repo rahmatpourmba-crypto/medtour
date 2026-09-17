@@ -62,10 +62,34 @@
       stGrid.appendChild(el);
     });
 
-    observeReveal();
-  }
+observeReveal();
+  setupVideos();
+}
 
-  function observeReveal() {
+  function setupVideos() {
+  document.querySelectorAll('.vcard').forEach(function (card) {
+    var video = card.querySelector('video');
+    if (!video) return;
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+    video.preload = 'metadata';
+    if (card.querySelector('.play')) return;
+    var playBtn = document.createElement('span');
+    playBtn.className = 'play';
+    playBtn.innerHTML = '&#9654;';
+    card.appendChild(playBtn);
+    video.addEventListener('mouseenter', function () { video.play().catch(function () {}); });
+    video.addEventListener('mouseleave', function () { video.pause(); video.currentTime = 0; });
+    playBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (video.muted) { video.muted = false; playBtn.innerHTML = '&#10074;&#10074;'; }
+      else { video.muted = true; playBtn.innerHTML = '&#9654;'; }
+    });
+  });
+}
+
+function observeReveal() {
     var els = document.querySelectorAll(".reveal");
     if (!("IntersectionObserver" in window)) {
       els.forEach(function (e) { e.classList.add("in"); });

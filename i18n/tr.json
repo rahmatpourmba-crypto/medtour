@@ -9,7 +9,8 @@
     "services": "Tedaviler",
     "why": "Neden biz?",
     "doctor": "Doktor",
-    "contacts": "İletişim"
+    "contacts": "İletişim",
+    "hospital": "Hastaneler"
   },
   "hero": {
     "badge": "İran'da medikal turizm",
@@ -120,5 +121,15 @@
         "d": "Kapıdan kapıya: karşılama, konaklama, tercüme ve takip — hepsi bizde."
       }
     ]
+  },
+  "hospital": {
+    "title": "Hastanelerimiz",
+    "subtitle": "Hastane ortamından görüntüler — isim veya yüz yok",
+    "v1": "Acil Bölüm & Monitörler",
+    "v2": "Cerrahi Aletler",
+    "v3": "İV Hatları ve Ambulanslar",
+    "v4": "Vital İşaretler İzleme",
+    "v5": "Kalp Atışı Monitörü",
+    "privacy": "Hiçbir hasta veya hastane ismi gösterilmemiştir. Görseller yalnızca eğitim ve tanıtım amaçlıdır."
   }
 }

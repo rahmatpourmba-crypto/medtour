@@ -9,7 +9,8 @@
     "services": "Treatments",
     "why": "Why us?",
     "doctor": "Doctor",
-    "contacts": "Contact"
+    "contacts": "Contact",
+    "hospital": "Hospitals"
   },
   "hero": {
     "badge": "Medical tourism in Iran",
@@ -120,5 +121,15 @@
         "d": "Door-to-door: pickup, stay, translation and follow-up — all on us."
       }
     ]
+  },
+  "hospital": {
+    "title": "Our Hospitals",
+    "subtitle": "Footage from hospital environments — no names or faces shown",
+    "v1": "Emergency Room & Monitors",
+    "v2": "Surgical Instruments",
+    "v3": "IV Lines & Ambulances",
+    "v4": "Vital Signs Monitoring",
+    "v5": "Heartbeat Monitor",
+    "privacy": "No patient or hospital name is shown. Images are for educational and illustrative purposes only."
   }
 }
